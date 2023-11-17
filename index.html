@@ -1,7 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>HTML Example</title>
+  <title>HTML Example with Styling</title>
+  <style>
+    /* Styling applied using tag selectors */
+    h1 {
+      color: blue;
+      font-size: 28px;
+    }
+
+    h2 {
+      color: green;
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .bold-text {
+      font-weight: bold;
+    }
+
+    .italic-text {
+      font-style: italic;
+    }
+
+    .custom-link {
+      color: red;
+      text-decoration: none;
+    }
+
+    .custom-link:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
 
@@ -13,9 +46,9 @@
   
   <hr>
   
-  <p>This is another paragraph with <b>bold</b> and <i>italic</i> text.</p>
+  <p>This is another paragraph with <span class="bold-text">bold</span> and <span class="italic-text">italic</span> text.</p>
   
-  <a href="https://www.example.com">This is a link to Example.com</a>
+  <a href="https://www.example.com" class="custom-link">This is a link to Example.com</a>
   
   <img src="https://via.placeholder.com/150" alt="Placeholder Image">
 
